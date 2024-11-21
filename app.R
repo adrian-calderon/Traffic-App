@@ -1,19 +1,19 @@
-library(shiny)
-library(ggplot2)
-library(data.table)
-library(plotly)  # For interactive graphs
-library(dplyr)   # For data manipulation
-library(cowplot) # For combining plots
-library(shinythemes)
-library(ggiraph)
-library(tidyverse)
-library(mapdata)
-library(stringr)
-library(RColorBrewer)
-library(paletteer)
-library(viridis)
-library(DT)
-library(shinydashboard)
+library(shiny)          # For building interactive web applications in R
+library(ggplot2)        # For creating static data visualizations
+library(data.table)     # For fast data manipulation and aggregation
+library(plotly)         # For creating interactive graphs
+library(dplyr)          # For efficient data manipulation using the pipe operator (%>%)
+library(cowplot)        # For combining and aligning ggplot2 plots into complex layouts
+library(shinythemes)    # For adding themes to Shiny applications
+library(ggiraph)        # For creating interactive ggplot2 visualizations
+library(tidyverse)      # A collection of packages for data science, including ggplot2, dplyr, tidyr, etc.
+library(mapdata)        # For accessing additional map data for spatial visualizations
+library(stringr)        # For string manipulation and regular expressions
+library(RColorBrewer)   # For creating color palettes for visualizations
+library(paletteer)      # For accessing a wide range of color palettes
+library(viridis)        # For colorblind-friendly and perceptually uniform color scales
+library(DT)             # For creating interactive, JavaScript-based data tables
+library(shinydashboard) # For creating dashboards in Shiny applications
 
 # Load your data
 accidents <- fread("accident.csv") 
